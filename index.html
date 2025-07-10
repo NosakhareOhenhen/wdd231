@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosakhare Ohenhen - WDD 231 Home Page</title>
+    <meta name="description" content="Nosakhare Ohenhen's WDD 231 course home page, showcasing web development projects and course information.">
+    <meta name="author" content="Nosakhare Ohenhen">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <script src="js/navigation.js" defer></script>
+    <script src="js/date.js" defer></script>
+    <script src="js/courses.js" defer></script>
+</head>
+<body>
+    <header>
+       <img src="images/nosalogo.jpg" alt="Site Logo" class="logo">
+        <span>Nosakhare Ohenhen</span>
+        <button id="menu-button" class="hamburger-menu" aria-label="Toggle Navigation">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
+            <li><a href="siteplan.html">Site Plan</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <div class="content-wrapper">
+                <p>Hello! I am Nosakhare Ohenhen, a student passionate about web development and computer programming. This page serves as my personal hub for the WDD 231 course, where I apply HTML, CSS, and JavaScript to build responsive and engaging web experiences. I am committed to continuous learning and mastering the art of front-end development.</p>
+                <div class="student-photo-placeholder">
+                    <img src="images/nosaphoto.jpg" alt="Student Photo">
+                </div>
+            </div>
+        </section>
+
+        <section class="course-section">
+            <h2>Web and Computer Programming Certificate Courses</h2>
+            <div class="course-filters">
+                <button id="allBtn">All Courses</button>
+                <button id="wddBtn">WDD Courses</button>
+                <button id="cseBtn">CSE Courses</button>
+
+
+            </div>
+            <div id="course-list-container" class="course-grid">
+            </div>
+            <p class="total-credits">Total Credits Displayed: <span id="total-credits">0</span></p>
+        </section>
+
+        <section class="learning-activities">
+            <h2>Learning Activities</h2>
+            <p>Throughout this course, I will be engaging in various learning activities, including hands-on coding assignments, quizzes, and collaborative projects. These activities are designed to deepen my understanding of web development principles and practices, from fundamental concepts to more advanced techniques in responsive design and dynamic content manipulation.</p>
+        </section>
+    </main>
+
+    <footer>
+    <div class="social-links">
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://github.com/yourusername" target="_blank"><img src="images/github.svg" alt="GitHub"></a>
+        <a href="https://x.com/yourtx" target="_blank" aria-label="X (Twitter)"><img src="images/x.svg" alt="X"></a>
+    </div>
+   </footer>
+               
+            </a>
+        </div>
+        <p>&copy; <span id="copyright-year"></span> Nosakhare Ohenhen | Edo State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

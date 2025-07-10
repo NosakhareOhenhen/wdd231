@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    header {
+        padding: 1rem 2rem;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    nav li a {
+        border-bottom: none;
+        padding: 0.75rem 1.5rem;
+        color: var(--light-text-color);
+    }
+    nav li a:hover,
+    nav li a.active {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    header nav {
+        margin-left: auto;
+    }
+    main {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .about-me .content-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .about-me p {
+        flex: 2;
+    }
+    .student-photo-placeholder {
+        flex-shrink: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 2.5rem;
+    }
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
