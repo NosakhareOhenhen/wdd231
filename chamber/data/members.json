@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Benin Bakers",
+    "address": "12 Bakery Lane, Benin City, Edo State, Nigeria",
+    "phone": "+234 805 000 1111",
+    "website": "https://beninbakers.ng",
+    "image": "benin-bakers.png",
+    "membership": 3
+  },
+  {
+    "name": "Edo Clean Energy",
+    "address": "8 Greenway Drive, Benin City, Edo State, Nigeria",
+    "phone": "+234 806 111 2222",
+    "website": "https://edocleanenergy.com",
+    "image": "edo-energy.png",
+    "membership": 2
+  },
+  {
+    "name": "Royal Tech Hub",
+    "address": "23 Osadebe Ave, Benin City, Nigeria",
+    "phone": "+234 803 333 4444",
+    "website": "https://royaltechhub.com",
+    "image": "royal-tech.png",
+    "membership": 1
+  },
+  {
+    "name": "Benin Agri Supply",
+    "address": "17 Market Road, Benin City, Nigeria",
+    "phone": "+234 807 555 6666",
+    "website": "https://beninagrisupply.com",
+    "image": "benin-agri.png",
+    "membership": 2
+  },
+  {
+    "name": "Victory Fashion House",
+    "address": "45 Akpakpava Street, Benin City",
+    "phone": "+234 809 777 8888",
+    "website": "https://victoryfashion.ng",
+    "image": "victory-fashion.png",
+    "membership": 1
+  },
+  {
+    "name": "Edo Creatives",
+    "address": "5 Oba Market Road, Benin City",
+    "phone": "+234 802 666 9999",
+    "website": "https://edocreatives.com",
+    "image": "edo-creatives.png",
+    "membership": 3
+  },
+  {
+    "name": "Benin Digital Services",
+    "address": "101 Ugbowo Road, Benin City",
+    "phone": "+234 810 888 9999",
+    "website": "https://benindigital.com",
+    "image": "benin-digital.png",
+    "membership": 2
+  }
+]

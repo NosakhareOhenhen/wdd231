@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 1rem 3rem;
+    }
+
+    main {
+        padding: 2.5rem;
+        max-width: 1200px; 
+    }
+
+    
+    #members-container.grid-view {
+        grid-template-columns: repeat(3, 1fr); 
+        }
+
+    
+    #members-container.list-view .member-list-item {
+        padding: 1.5rem;
+        gap: 3rem;
+    }
+
+    footer .footer-content {
+        max-width: 1200px;
+        padding: 0 3rem;
+    }
+}

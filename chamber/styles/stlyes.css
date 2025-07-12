@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+.active a {
+    font-weight: bold;
+    background-color: #4CAF50;
+}
+
+.view-toggle {
+    margin: 1rem;
+    text-align: center;
+}
+
+.view-toggle button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.member-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.list-view .member-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.member-card img {
+    max-width: 100px;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+#hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#navigation {
+    display: none;
+}
+
+#navigation.show {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #hamburger {
+        display: none;
+    }
+    
+    #navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    nav a {
+        padding: 1rem;
+    }
+}
