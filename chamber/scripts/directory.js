@@ -2,7 +2,7 @@ const gridButton = document.querySelector("#gridBtn");
 const listButton = document.querySelector("#listBtn");
 const displayArea = document.querySelector("#directoryDisplay");
 
-// Toggle Views
+// Views
 gridButton.addEventListener("click", () => {
     displayArea.classList.add("grid");
     displayArea.classList.remove("list");
@@ -13,7 +13,7 @@ listButton.addEventListener("click", () => {
     displayArea.classList.remove("grid");
 });
 
-// Fetch Members Data
+
 const url = "data/members.json";
 
 async function getMemberData() {

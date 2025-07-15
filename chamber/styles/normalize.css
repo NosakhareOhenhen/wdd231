@@ -17,7 +17,11 @@ header, footer {
   padding: 1rem;
   text-align: center;
 }
-
+.chamber-logo {
+   height: 40px;
+    width: 40px;
+    margin-right: 0.5rem;
+}
 nav {
   background-color: #0055a5;
   display: flex;
