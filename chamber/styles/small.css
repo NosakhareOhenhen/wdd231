@@ -83,7 +83,7 @@ ul li a.active {
     margin: 0 0.5rem;
     cursor: pointer;
 }
-
+# member contianer
 .grid-view {
     display: grid;
     grid-template-columns: 1fr;
